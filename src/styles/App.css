@@ -1,1 +1,41 @@
 
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    width:50vw;
+    background-color: green;
+    margin: 0 auto;
+}
+
+h1{
+    padding-left: 15px;
+}
+
+.parent p{
+    padding-left: 15px;
+}
+
+.child1{
+    width: 90%;
+    height:20%;
+    padding: 8px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.child1 p{
+    padding-bottom: 15px;
+}
+.child2 p{
+    padding-bottom: 15px;
+}
+
+.child2{
+    width: 90%;
+    height:20%;
+    padding:8px;
+    background-color: blue;
+    margin: 0 auto;
+}
